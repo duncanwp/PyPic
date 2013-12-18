@@ -59,7 +59,6 @@ def get_date_from_filename(file):
 def parse_date_tstamp(fname):
     """extract date info from file timestamp"""
     import os
-    import time
     import datetime
 
     # Modification of --> Miles (http://stackoverflow.com/questions/946967/get-file-creation-time-with-python-on-mac)
@@ -85,11 +84,6 @@ def parse_date_tstamp(fname):
         creation_time = get_creation_time(fname)
 
     date = datetime.date.fromtimestamp(creation_time)
-    # year = str(date.tm_year)
-    # month = '{0:02d}'.format(date.tm_mon)
-    # month += '-' + months[month]
-    # day = '{0:02d}'.format(date.tm_mday)
-
     return date
 
 
@@ -99,7 +93,6 @@ def get_photo_date(file, exif=True):
         Try and determine the date of a photo from it's exif header and then by it's filename. Will raise
         an InvalidDateException (out of get_date_from_filename) if it really can't get a date.
     """
-    date = None
     if exif:
         try:
             date = get_date_from_exif_tag(file)
