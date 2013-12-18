@@ -3,8 +3,8 @@ import argparse
 
 __author__ = 'duncan'
 
-root = '/home/duncan/Desktop'
-root = '/mnt/Media/Pictures'
+# root = '/home/duncan/Desktop'
+# root = '/mnt/Media/Pictures'
 
 parser = argparse.ArgumentParser(description="Sort photos")
 parser.add_argument('--dry-run', '-n', help="Dry-run: Simulate results, print output", action='store_true')

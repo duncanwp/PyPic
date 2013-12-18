@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46ae7e6b-75ba-41a8-b054-69ef9d08fe28" name="Default" comment="" />
+    <list default="true" id="46ae7e6b-75ba-41a8-b054-69ef9d08fe28" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dates.py" afterPath="$PROJECT_DIR$/src/dates.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sort_pics.py" afterPath="$PROJECT_DIR$/src/sort_pics.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils.py" afterPath="$PROJECT_DIR$/src/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="PyPic.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,55 +29,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="utils.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utils.py">
+      <file leaf-file-name="utils.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.18392581" vertical-offset="0" max-vertical-offset="3383">
+            <state line="153" column="0" selection-start="4888" selection-end="4888" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="3383">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sort_pics.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sort_pics.py">
+      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/site-packages/exifread/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="13" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="918">
+            <state line="19" column="7" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="3978">
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sort_pics.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sort_pics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="28" selection-start="89" selection-end="89" vertical-scroll-proportion="0.2" vertical-offset="0" max-vertical-offset="918">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="photo.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/photo.py">
+        <entry file="file://$PROJECT_DIR$/src/photo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="33" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="629">
+            <state line="6" column="0" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="test_dates.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_dates.py">
+        <entry file="file://$PROJECT_DIR$/src/tests/test_dates.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="952">
+            <state line="32" column="0" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1003">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="test_main.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_main.py">
+        <entry file="file://$PROJECT_DIR$/src/tests/test_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="27" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="510">
+            <state line="8" column="27" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="dates.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dates.py">
+        <entry file="file://$PROJECT_DIR$/src/dates.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="44" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="748">
+            <state line="13" column="0" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
@@ -84,6 +101,24 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="duncanwp" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -94,16 +129,19 @@
         <option value="$PROJECT_DIR$/tests/test_main.py" />
         <option value="$PROJECT_DIR$/dates.py" />
         <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/src/utils.py" />
+        <option value="$PROJECT_DIR$/src/dates.py" />
+        <option value="$PROJECT_DIR$/src/sort_pics.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="349" />
-    <option name="y" value="98" />
+    <option name="x" value="237" />
+    <option name="y" value="65" />
     <option name="width" value="1282" />
     <option name="height" value="805" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -147,36 +185,8 @@
               <option name="myItemId" value="PyPic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PyPic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyPic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyPic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyPic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_images" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -207,6 +217,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pard\Dropbox\Dev\PyPic\src" />
       <recent name="$PROJECT_DIR$/tests" />
     </key>
   </component>
@@ -348,7 +359,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyPic" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sort_pics.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\pard\Dropbox\Dev\PyPic\src\sort_pics.py" />
       <option name="PARAMETERS" value="--dry-run /mnt/Media/Pictures/2008/07" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -369,7 +380,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyPic" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sort_pics.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\pard\Dropbox\Dev\PyPic\src\sort_pics.py" />
       <option name="PARAMETERS" value="--dry-run $USER_HOME$/Desktop" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -388,7 +399,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyPic" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sort_pics.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\pard\Dropbox\Dev\PyPic\src\sort_pics.py" />
       <option name="PARAMETERS" value="$USER_HOME$/Desktop" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -407,7 +418,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyPic" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sort_pics.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\pard\Dropbox\Dev\PyPic\src\sort_pics.py" />
       <option name="PARAMETERS" value="-v $USER_HOME$/Desktop" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -501,14 +512,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="349" y="98" width="1282" height="805" extended-state="0" />
-    <editor active="true" />
+    <frame x="237" y="65" width="1282" height="805" extended-state="0" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32986626" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2164297" sideWeight="0.68491125" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2164297" sideWeight="0.6701337" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39940828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3152" sideWeight="0.5005258" order="8" side_tool="true" content_ui="tabs" />
@@ -531,128 +543,125 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Changing to use ExifRead" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing to use ExifRead" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/photo.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sort_pics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photo.py">
+    <entry file="file://$PROJECT_DIR$/src/photo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="33" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_dates.py">
+    <entry file="file://$PROJECT_DIR$/src/tests/test_dates.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="952">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_main.py">
+    <entry file="file://$PROJECT_DIR$/src/tests/test_main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="27" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dates.py">
+    <entry file="file://$PROJECT_DIR$/src/dates.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="44" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="748">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_dates.py">
+    <entry file="file://$PROJECT_DIR$/src/tests/test_dates.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="70" selection-start="1503" selection-end="1503" vertical-scroll-proportion="0.0" vertical-offset="166" max-vertical-offset="615">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dates.py">
+    <entry file="file://$PROJECT_DIR$/src/dates.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="94" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="825">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils.py">
+    <entry file="file://$PROJECT_DIR$/src/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="145" column="38" selection-start="4632" selection-end="4632" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2400">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_dates.py">
+    <entry file="file://$PROJECT_DIR$/src/tests/test_dates.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="18" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="210">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dates.py">
+    <entry file="file://$PROJECT_DIR$/src/dates.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sort_pics.py">
+    <entry file="file://$PROJECT_DIR$/src/tests/test_dates.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+        <state line="32" column="0" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1003">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photo.py">
+    <entry file="file://$PROJECT_DIR$/src/tests/test_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="33" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="555">
+        <state line="8" column="27" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_dates.py">
+    <entry file="file://C:/Python27/Lib/site-packages/exifread/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="840">
+        <state line="19" column="7" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="3978">
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="0" selection-start="4888" selection-end="4888" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="3383">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_main.py">
+    <entry file="file://$PROJECT_DIR$/src/dates.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+        <state line="13" column="0" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="748">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dates.py">
+    <entry file="file://$PROJECT_DIR$/src/photo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="44" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+        <state line="6" column="0" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils.py">
+    <entry file="file://$PROJECT_DIR$/src/sort_pics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.18392581" vertical-offset="0" max-vertical-offset="3383">
+        <state line="5" column="28" selection-start="89" selection-end="89" vertical-scroll-proportion="0.2" vertical-offset="0" max-vertical-offset="918">
           <folding />
         </state>
       </provider>

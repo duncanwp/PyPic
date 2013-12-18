@@ -25,9 +25,9 @@ Created on 7 Feb 2013
 #exif.save_file()
 
 def print_meta_data(file):
-    from gi.repository import GExiv2
+    from exifread import process_file
     
-    metadata = GExiv2.Metadata(file)
+    metadata = process_file(file)
     tag = 'Exif.Image.Model'
 
     if tag in metadata:
@@ -44,23 +44,23 @@ def print_meta_data(file):
 #    print('This photo has %d tags.' % len(metadata))
     
 
-def add_keyword_to_picture(keyword, pic):
-    from gi.repository import GExiv2
-
-    metadata = GExiv2.Metadata(pic)
-    
-    if metadata.get('Iptc.Application2.Keywords',None) == keyword:
-        print('Keyword already set to %s.' % keyword)
-    else:
-        print 'Adding Keyword: ', keyword, 'to file: ', pic
-        metadata['Iptc.Application2.Keywords'] = keyword
-
-        if metadata['Iptc.Application2.Keywords'] == keyword:
-            print('Keyword set to %s.' % keyword)
-        else:
-            print('There was a problem setting the IPTC Keywords tag.')
-            
-        metadata.save_file()
+# def add_keyword_to_picture(keyword, pic):
+#     from gi.repository import GExiv2
+#
+#     metadata = GExiv2.Metadata(pic)
+#
+#     if metadata.get('Iptc.Application2.Keywords',None) == keyword:
+#         print('Keyword already set to %s.' % keyword)
+#     else:
+#         print 'Adding Keyword: ', keyword, 'to file: ', pic
+#         metadata['Iptc.Application2.Keywords'] = keyword
+#
+#         if metadata['Iptc.Application2.Keywords'] == keyword:
+#             print('Keyword set to %s.' % keyword)
+#         else:
+#             print('There was a problem setting the IPTC Keywords tag.')
+#
+#         metadata.save_file()
 
 def find_all_pictures(root):
     import os
@@ -110,34 +110,34 @@ def find_full_path_to_picture(pic):
     print 'No match found for: ', pic
     return None
 
-def tag_files_from_aperture():
-    text_file_name = '/home/duncan/Downloads/Olivias first year.txt'
-    text_file = open(text_file_name)
-    text = text_file.read()
-    data = text.decode('utf-16')
-        
-    files = []
-    for line in data.split('\n'):
-        tabs = line.split('\t')
-        if len(tabs) > 5:
-            filename = line.split('\t')[0]
-            keywords = line.split('\t')[5]
-            files.append(find_full_path_to_picture(filename))
+# def tag_files_from_aperture():
+#     text_file_name = '/home/duncan/Downloads/Olivias first year.txt'
+#     text_file = open(text_file_name)
+#     text = text_file.read()
+#     data = text.decode('utf-16')
+#
+#     files = []
+#     for line in data.split('\n'):
+#         tabs = line.split('\t')
+#         if len(tabs) > 5:
+#             filename = line.split('\t')[0]
+#             keywords = line.split('\t')[5]
+#             files.append(find_full_path_to_picture(filename))
+#
+#     for a_file in files:
+#         if a_file is not None:
+#             add_keyword_to_picture('Olivias photobook', a_file)
 
-    for a_file in files:
-        if a_file is not None:
-            add_keyword_to_picture('Olivias photobook', a_file)
-
-def add_keyword_based_on_rating(files):
-    from gi.repository import GExiv2
-
-    for a_file in files:   
-        metadata = GExiv2.Metadata(a_file)
-        rating = metadata.get_rating()
-        if rating == 4:
-            add_keyword_to_picture('4 Star', a_file)
-        elif rating == 5:
-            add_keyword_to_picture('5 Star', a_file)
+# def add_keyword_based_on_rating(files):
+#     from gi.repository import GExiv2
+#
+#     for a_file in files:
+#         metadata = GExiv2.Metadata(a_file)
+#         rating = metadata.get_rating()
+#         if rating == 4:
+#             add_keyword_to_picture('4 Star', a_file)
+#         elif rating == 5:
+#             add_keyword_to_picture('5 Star', a_file)
 
 
 def move_photo(root, photo, verbose=False):

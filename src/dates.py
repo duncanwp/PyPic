@@ -8,9 +8,9 @@ class InvalidDateException(BaseException):
 
 def get_date_from_exif_tag(file):
     from datetime import datetime
-    from gi.repository import GExiv2
+    from exifread import process_file
 
-    metadata = GExiv2.Metadata(file)
+    metadata = process_file(file)
 
     try:
         date_tag = metadata['Exif.Photo.DateTimeOriginal']
