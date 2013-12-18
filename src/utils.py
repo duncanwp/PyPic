@@ -5,6 +5,15 @@ Created on 7 Feb 2013
 '''
 
 
+def print_image_tags(file):
+    from exifread import process_file
+
+    tags = process_file(open(file), strict=True)
+
+    for tag in tags.keys():
+        print "Key: %s, value %s" % (tag, tags[tag])
+
+
 def find_all_pictures(root):
     import os
     all_filenames = []
@@ -38,30 +47,6 @@ def move_photo(root, photo, verbose=False):
         shutil.move(photo.path, dest)
     else:
         if verbose: print photo.path + " already exists at " + dest
-
-
-def get_date_from_filename(file):
-    """
-        Get date from filename, this is quite a general utility which will return a datetime object from a filename type
-        string where the filename part is of the form either:
-          yyyymmdd*
-          or
-          ????yyyymmdd*
-    """
-    from datetime import date
-    from os.path import basename
-    from src.dates import InvalidDateException
-
-    filename = basename(file)
-    try:
-        d = date(int(filename[4:8]), int(filename[8:10]), int(filename[10:12]))
-    except:
-        #
-        try:
-            d = date(int(filename[0:4]), int(filename[4:6]), int(filename[6:8]))
-        except:
-            raise InvalidDateException("Couldn't determine date by filename: "+file)
-    return d
 
 
 def create_new_photo_directory(base_path, date):

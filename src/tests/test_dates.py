@@ -3,7 +3,7 @@ from datetime import date
 from nose.tools import assert_equal, assert_true
 from nose.tools.nontrivial import raises
 
-from dates import InvalidDateException
+from src.dates import InvalidDateException
 
 
 __author__ = 'duncan'
